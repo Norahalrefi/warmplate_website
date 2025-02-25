@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    margin: 0;
+    box-sizing: border-box;
+   background-color: rgb(233, 233, 233);
+  
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+   .header .logo {
+        font-size:50px;
+        font-family:Candara;
+        color:#4e7a27 ;
+        text-decoration: none;
+        margin-left: 30px;
+      }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-aroun;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+  }
+   .nav-items a {
+        text-decoration: none;
+        color: #000;
+        padding: 35px 20px;
+      }
+  .main {
+  margin: 0 auto;
+  max-width:75%;
+  width:900px;
+  display:flex;
+  align-items:center;
+   justify-content:space-around;
+  
+  }
+  img{
+  float:left;
+    max-width:350px;
+    border-radius:5px;
+    margin-right:30px;
+  
+  }
+  .text h3{
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    padding:5px;
+    margin-bottom:15px;
+    font-family:helvetica;
+    }
+    .text p{
+    font-size:20px;
+    color:rgb(114, 114, 114);
+    letter-spacing:1px;
+    line-height:20px;
+    font-family:candara;
+    }
+    .team{
+        text-align: center;
+       margin-top:60px;
+    }
+    .team h2{
+    text-align:center;
+    font-size:30px;
+    color:rgb(0, 128, 0);
+    font-family:cursive;
+    }
+    .team hr{
+    width:100px;
+    margin:10px auto;}
+    .team .members{
+     display:flex;
+        justify-content: center;
+        width: auto;
+    }
+    .team .members .team-members{
+    margin:10px;
+    width:280px;
+    padding:20px 10px;
+    background-color:white;
+    }
+    .team .members .team-members .img_member{
+    width: 100%;
+    height: 200px;
+    max-width:190px;
+        border-radius: 50%;
+        margin:0 auto;
+        background-color:rgb(157, 255, 182);
+        padding:5px;
+    }
+    .team .members .team-members .img_member img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    }.team .members .team-members h3{
+        text-align:center;
+        font-size:20px;
+        margin:7px;
+        }
+        .team .members .team-members p{
+        text-align:center;
+        font-size:15px;
+        margin:7px;
+        color:rgb(109, 109, 109);
+        }
+        .icon{
+        width:100%;
+        padding:70px 30px 20px;
+        }
+        .fa {
+          padding: 20px;
+          width: 100%;
+          text-align: center;
+          text-decoration: none;
+          justify-content:center;
+          display:flex;
+        
+          }
